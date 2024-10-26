@@ -1,5 +1,5 @@
 # base
-FROM aclemons/slackware:latest
+FROM aclemons/slackware:${tag}
 
 # stop interactive prompts
 ENV TERM=xterm \
